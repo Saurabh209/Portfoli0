@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src= "/pic01.jpg"
+              src= "/pic03.png"
               alt="Atom portrait"
               width="192"
               height="192"
