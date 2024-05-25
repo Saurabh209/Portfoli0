@@ -52,7 +52,7 @@ export const experiencesData = [
   // },
   {
     title: "Learning",
-    // location: "Noida",
+    location: "India, Noida",
     description:
       "I'm grinding my skill in Mlops and LLM",
     icon: React.createElement(FaReact),
