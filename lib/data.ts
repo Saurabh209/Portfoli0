@@ -40,7 +40,7 @@ export const experiencesData = [
     description:
       "I graduated recently and got offer to work on 'Antern' company as intern but can't join because of location.",
     icon: React.createElement(LuGraduationCap),
-    date: "2024",
+    date: "2021-2024",
   },
   // {
   //   title: "Front-End Developer",
@@ -56,7 +56,7 @@ export const experiencesData = [
     description:
       "I'm grinding my skill in Mlops and LLM",
     icon: React.createElement(FaReact),
-    // date: "- present",
+    date: "2024",
   },
 ] as const;
 
