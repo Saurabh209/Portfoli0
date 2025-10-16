@@ -18,18 +18,25 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
-      Hello, everyone! I'm Aman, a Data Science and MLOps Engineer {" "}
-        <span className="font-medium">with a</span> proven track record of delivering production-level projects
-        with extensive experience in the field, I specialize in building robust and scalable machine learning systems that drive business value.{" "}
-        <span className="font-medium">I have worked on a diverse range of projects, leveraging cutting-edge technologies and newest framework to extract insights from complex</span>.{" "}
-        <span className="font-bold"> data sets. From data acquisition and processing to model development, deployment, and monitoring,
-        </span>  I have a comprehensive understanding of the entire machine learning lifecycle.
-        <span className="font-medium"> As an MLOps Engineer,</span> I am passionate about bridging the gap between data science and software engineering{" "}
-        <span className="font-medium">
-        I look forward to engaging discussions and exploring the latest advancements in the field of Data Science and MLOps.
-        </span>
-      </p>
+<p className="mb-3">
+  Hello, everyone! I'm <span className="font-bold">Saurabh Kumar,</span> a{" "}
+  <span className="font-medium">Frontend React Developer</span> passionate about building
+  sleek, high-performance, and responsive web applications.{" "}
+  <span className="font-medium">
+    With a solid foundation in React.js, Tailwind CSS, Bootstrap, and NativeWind,
+  </span>{" "}
+  I specialize in crafting interactive and scalable interfaces that deliver smooth user experiences.{" "}
+  <span className="font-bold">
+    From concept to deployment, I focus on clean code, performance optimization, and UI precision.
+  </span>{" "}
+  Recently, I’ve been expanding my skills into{" "}
+  <span className="font-medium">backend development</span>, exploring Node.js, Express, and APIs
+  to become a more versatile full-stack developer.{" "}
+  <span className="font-medium">
+    I’m always eager to collaborate, learn, and contribute to projects that push boundaries in modern web development.
+  </span>
+</p>
+
 
       {/* <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing

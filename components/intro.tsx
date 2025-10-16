@@ -4,6 +4,7 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import logo from '@/public/Profile_logo.png'
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
@@ -31,13 +32,13 @@ export default function Intro() {
             }}
           >
             <Image
-              src= "/profile.jpeg"
-              alt="Atom portrait"
+              src=  {logo}
+              alt="logo"
               width="192"
               height="192"
               quality="95"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-24 w-24  rounded-full object-cover   "
             />
           </motion.div>
 
@@ -62,10 +63,11 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello,</span> I'm a Aman. {" "}
-        <span className="font-bold">Data Science and MLOps Engineer</span> with a proven track record of delivering{" "}
-        <span className="font-bold">production-level projects. </span> 
-        <span className="italic"></span>{" "}
+    <span className="font-bold">Hello,</span> I'm <span className="font-bold">Saurabh Kumar,</span>{" "}
+a <span className="font-bold">Frontend React Developer</span> skilled in building{" "}
+<span className="font-bold">responsive, user-focused web applications.</span>{" "}
+<span className="italic">Turning clean code into smooth experiences.</span>
+
       </motion.h1>
 
       <motion.div
@@ -78,7 +80,7 @@ export default function Intro() {
       >
         <Link
           href="#contact"
-          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 hover:bg-gray-950 active:scale-105 transition"
           onClick={() => {
             setActiveSection("Contact");
             setTimeOfLastClick(Date.now());
@@ -89,8 +91,8 @@ export default function Intro() {
         </Link>
 
         <a
-          id="download" className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV.pdf"
+          id="download" className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+          href="/Resume8.pdf"
           download
         >
           Download CV{" "}
@@ -99,7 +101,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.linkedin.com/in/aman-kumar-ml/"
+          href="https://www.linkedin.com/in/saurabh-kumar-265aa1232"
           target="_blank"
         >
           <BsLinkedin />
@@ -107,7 +109,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com/AtomCode01/"
+          href="https://github.com/Saurabh209/"
           target="_blank"
         >
           <FaGithubSquare />
