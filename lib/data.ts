@@ -9,6 +9,7 @@ import KeyboardTester from '@/public/KeyboardTester.png'
 import AppointmentSchedular from "@/public/AppointmentSchedular.png"
 import eldenRing from "@/public/eldenRing.png"
 import login from "@/public/login.png"
+import SecureTodo from "@/public/SecureTodo.png"
 import rmtdevImg from "@/public/dev.png";
 import wordanalyticsImg from "@/public/keyboard.jpg";
 
@@ -61,7 +62,7 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
-    {
+      {
      title: "Lore of the Lands Between",
     description:
       "A comprehensive, UI-focused web application dedicated to exploring the rich lore, epic battles, bosses, legendary weapons of Elden Ring",
@@ -69,6 +70,15 @@ export const projectsData = [
     imageUrl: eldenRing,
     link:'https://lore-of-the-lands-between.vercel.app/'
   },
+      {
+     title: "Secure Todo",
+    description:
+      "A Todo app with the touch of Authentication and Authorization using JWt token and Bcrypt for encrypting password",
+    tags: ["React.js", "Git", "GitHub ","Ejs","JWT","Bcrypt","NodeJs","ExpressJs","Mongodb"],
+    imageUrl: SecureTodo,
+    link:'https://secure-todo.vercel.app/'
+  },
+
       {
      title: "Login Authentication",
     description:
