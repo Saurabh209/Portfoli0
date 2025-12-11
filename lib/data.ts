@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/person.jpg";
 import githubreportCardImage from "@/public/githubReportCardImage.png";
 import KeycodeFinder from '@/public/KeycodeFinder.png'
+import Roundtable from '@/public/image.png'
 import KeyboardTester from '@/public/KeyboardTester.png'
 import AppointmentSchedular from "@/public/AppointmentSchedular.png"
 import eldenRing from "@/public/eldenRing.png"
@@ -62,6 +63,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+        {
+     title: "The Roundtable",
+    description:
+      "Lightweight project-management tool where users create boards, organize tasks, and manage workflows.",
+    tags: ["React.js", "Scss", "Git", "GitHub ","Node/Express" ,"MongoDb" , "render/Vercel"],
+    imageUrl: Roundtable,
+    link:'https://assignment-3l39.vercel.app/'
+  },
       {
      title: "Lore of the Lands Between",
     description:
@@ -77,23 +86,6 @@ export const projectsData = [
     tags: ["React.js", "Git", "GitHub ","Ejs","JWT","Bcrypt","NodeJs","ExpressJs","Mongodb"],
     imageUrl: SecureTodo,
     link:'https://secure-todo.vercel.app/'
-  },
-
-      {
-     title: "Login Authentication",
-    description:
-      "Just a regular login signup with proper authentication like JWT Token , Cookies ,bycrypt etc",
-    tags: [  "Node.js","Express.js","Mongodb","Ejs","JWT","bycrypt", "Git", "GitHub ","Custom Api"],
-    imageUrl: login,
-    link:'https://github.com/Saurabh209/Login-Authentication'
-  },
-  {
-     title: "Hospital-Dashboard",
-    description:
-      "A  Hospital Appointment Dashboard that allows front desk staff and doctors to view appointments efficiently.",
-    tags: ["JavaScript","React.js", "Tailwind", "Scss", "Git" ],
-    imageUrl: AppointmentSchedular,
-    link:'https://hospital-appointment-scheduler-alpha.vercel.app/'
   },
   {
     title: "GitHub Report Card ",

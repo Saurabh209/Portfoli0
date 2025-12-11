@@ -20,7 +20,7 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
 <p className="mb-3">
   Hello, everyone! I'm <span className="font-bold">Saurabh Kumar,</span> a{" "}
-  <span className="font-medium">Frontend React Developer</span> passionate about building
+  <span className="font-medium">MERN Stack Developer</span> passionate about building
   sleek, high-performance, and responsive web applications.{" "}
   <span className="font-medium">
     With a solid foundation in React.js, Tailwind CSS, Bootstrap, and NativeWind,

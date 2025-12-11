@@ -64,7 +64,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
     <span className="font-bold">Hello,</span> I'm <span className="font-bold">Saurabh Kumar,</span>{" "}
-a <span className="font-bold">Frontend React Developer</span> skilled in building{" "}
+a <span className="font-bold">MERN Stack Developer</span> skilled in building{" "}
 <span className="font-bold">responsive, user-focused web applications.</span>{" "}
 <span className="italic">Turning clean code into smooth experiences.</span>
 
@@ -78,7 +78,7 @@ a <span className="font-bold">Frontend React Developer</span> skilled in buildin
           delay: 0.1,
         }}
       >
-        <Link
+        {/* <Link
           href="#contact"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 hover:bg-gray-950 active:scale-105 transition"
           onClick={() => {
@@ -88,7 +88,7 @@ a <span className="font-bold">Frontend React Developer</span> skilled in buildin
         >
           Contact me here{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
-        </Link>
+        </Link> */}
 
         <a
           id="download" className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
